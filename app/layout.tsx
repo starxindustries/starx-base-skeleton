@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import { ThemeProvider } from "next-themes";
+import NextTopLoader from 'nextjs-toploader';
 import "./globals.css";
 
 const workSans = Work_Sans({
@@ -27,6 +28,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <NextTopLoader
+            color="#22DD99"
+          />
           {children}
         </ThemeProvider>
       </body>
