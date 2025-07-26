@@ -9,8 +9,8 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Starx Project",
-  description: "This is the skeleton project",
+  title: "Subzero Project",
+  description: "This is the skeleton project from SubZero",
 };
 
 export default function RootLayout({
